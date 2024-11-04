@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 95px;
+}
+
+ul li a {
+    text-decoration: none; 
+    color: rgba(0,0,0,.87);
+    padding: 10px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+.logo2 {
+    width: 18px;
+    height: 18px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google {
+    width: 272px;
+    height: 92px;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    width: 746px;
+    border: none;
+    padding: 20px 10px;
+}
