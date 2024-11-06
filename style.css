@@ -19,17 +19,32 @@ ul {
 ul li a {
     text-decoration: none; 
     color: rgba(0,0,0,.87);
-    padding: 10px;
+    padding: 10px 10px 0 10px;
+    margin: auto;
+}
+
+.border:hover {
+    border-bottom: 1px black solid;
 }
 
 .logo {
     width: 30px;
     height: 30px;
+    padding: 10px;
 }
 
 .logo2 {
     width: 18px;
     height: 18px;
+}
+
+.logo, .logo2 {
+    padding: 10px;
+}
+
+.allLogo:hover {
+    background-color: lightgray;
+    border-radius: 30px;
 }
 
 .main{
@@ -46,6 +61,65 @@ ul li a {
 
 .search-bar {
     width: 746px;
-    border: none;
-    padding: 20px 10px;
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    padding: 15px 25px;
+    font-size: 16px;
+    outline: none;
 }
+
+.downlogo {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.left {
+    margin-right: 40px;
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none; 
+    color: rgba(0,0,0,.87);
+    padding: 20px;
+}
+
+.left:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.right:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.leftLogo, .rightLogo{
+    width: 40px;
+    height: 35px;
+}
+
+.logoText {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: right;
+    margin-top: 100px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+
+
+
